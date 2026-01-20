@@ -1,0 +1,56 @@
+body{
+    background-color: burlywood;
+
+}
+
+h1{
+    
+    font-size: 50px;
+    word-spacing: 40px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+h2{
+       /* border: 2px black solid */
+    border-top: 5px black groove;
+    border-right: 5px greenyellow double;
+    border-bottom: 5px green groove;
+    border-left: 5px blue groove;
+
+    /* padding */
+    /* padding 50px */
+    padding-top:30px ;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+    /* margin */
+    /* margin 70px */
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+p{
+    
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+    word-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    background-color: beige;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: blue;
+    color: chartreuse;
+    text-decoration: underline;
+}

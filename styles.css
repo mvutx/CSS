@@ -1,0 +1,65 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    background-color: antiquewhite;
+    font-size: 25px;
+    color: brown;
+    letter-spacing: 12px;
+    word-spacing: 20px;
+    text-align: center;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    word-spacing: 10px;
+    text-decoration: overline;
+}
+
+
+h2{
+      /* border: 2px black solid */
+    border-top: 5px black groove;
+    border-right: 5px pink double;
+    border-bottom: 5px red groove;
+    border-left: 5px blue dotted;
+
+    /* padding */
+    /* padding 50px */
+    padding-top:30px ;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+    /* margin */
+    /* margin 70px */
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration:none;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color: deeppink;
+    padding: 10px;
+    border-radius: 16pt;
+    margin-right: 15px;
+
+}
+a:hover{
+    background-color: chartreuse;
+    color: blue;
+    text-decoration: underline;
+}
+
+h1:hover{
+    background-color: black;
+    color: white;
+}
